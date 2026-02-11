@@ -11,9 +11,8 @@ void setup() {
   pinMode(piezo,OUTPUT);
   pinMode(ldr,INPUT);
   lcd.begin(16, 2);
-  lcd.print("hello, world!");
-  lcd.setCursor(0,1);
-  lcd.print("Gautham M");
+  lcd.print("starting");
+  
 }
 int x;
 void loop() {
